@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: #333;
+    line-height: 2;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ================================
+header
+=================================== */
+header {
+    position: fixed;
+    opacity: 0.9;
+    z-index: 1;
+    width: 100%;
+}
+
+i {
+    margin-right: 10px;
+}
+
+/* ================================
+top
+=================================== */
+
+.top {
+    background-image: url(../img/frank-mckenna-OD9EOzfSOh0-unsplash.jpg);
+    background-size: cover;
+    padding: 300px 0 240px 0;
+    z-index: -1;
+    position: sticky;
+    margin: 0 auto;
+    top: 0;
+}
+
+/* ================================
+about
+=================================== */
+
+.about {
+    text-align: center;
+    padding: 60px 0;
+    background-image: url(../img/josh-rose-trYl7JYATH0-unsplash.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.about-me-img {
+    border-radius: 50%;
+
+}
+.about-subtitle {
+    padding: 30px 0;
+    font-size: 24px;
+}
+
+.about-container {
+    background-color: rgba(0,0,0,0.8);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* ================================
+skills
+=================================== */
+
+.skills {
+    padding: 60px 0;
+    background-image: url(../img/florencia-viadana-1J8k0qqUfYY-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.skills-title {
+    background: rgba(0,0,0,0.1);
+    padding: 20px 0px;
+    margin-bottom: 60px;
+}
+
+.skills-container {
+    background-color: rgba(0,0,0,0.8);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.skills-item {
+    font-size: 100px;
+    color: white;
+}
+
+.skills-container-txt {
+    font-size: 12px;
+}
+
+.fa-html5 {
+    color: #E35027;
+}
+
+.fa-css3 {
+    color: #066DB4;
+}
+
+.fa-bootstrap {
+    color: #5D3D87;
+}
+
+/* ================================
+service
+=================================== */
+
+.service {
+    color: white;
+    text-align: center;
+    background-image: url(../img/casey-horner-JvgLz2UmXsQ-unsplash.jpg);
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.service-container {
+    background-color: rgba(0,0,0,0.8);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-subtitle {
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.service-img {
+    border-radius: 50%;
+}
+
+/* ================================
+works
+=================================== */
+.works {
+    text-align: center;
+    background-image: url(../img/marten-bjork-6dW3xyQvcYE-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    padding: 60px 0;
+}
+
+.works-img {
+    height: auto;
+    width: 100%;
+}
+
+.works-container {
+    background-color: rgba(0,0,0,0.8);
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+}
+
+/* ================================
+contact
+=================================== */
+.contact {
+    background-image: url(../img/tomoko-uji-VzNj6FqMKGA-unsplash.jpg);
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-btn {
+    border-radius: 10px;
+}
+.contact-btn:hover {
+    text-decoration: none;
+}
+
+/* ================================
+footer 
+=================================== */
+
+footer {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+/* ================================
+スマホ版
+=================================== */
+@media only screen and (max-width:767px) {
+    .top {
+        padding:100px 0 ;
+        top: 65px;
+    }
+
+    .works-img {
+        width: 90%;
+    }
+
+    .works-container {
+        width: 90%;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+}
